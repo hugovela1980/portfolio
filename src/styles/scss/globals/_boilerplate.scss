@@ -1,0 +1,19 @@
+// Basic reset
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    // outline: 1px dashed red;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+

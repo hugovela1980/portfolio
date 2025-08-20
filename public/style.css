@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+:root {
+  --font: "Montserrat", sans-serif;
+}
+
+:root {
+  --background-color: rgb(0, 0, 3);
+  --text-color: rgb(225, 225, 255);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
